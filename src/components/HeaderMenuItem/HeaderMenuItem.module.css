@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("../../assets/fonts/Roboto-Regular.ttf");
+}
+
+.iconBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 25px;
+  cursor: pointer;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.iconBlock:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.iconBlock:first-child {
+  margin-left: 0;
+}
+
+.iconBlock .observer {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.iconBlock .observer .icon {
+  width: 25px;
+  height: 25px;
+  border: none;
+  margin-bottom: 5px;
+}
+
+.iconBlock .observer .counter {
+  position: absolute;
+  right: -75%;
+  top: -25%;
+  color: #f0f0f0;
+  background-color: #FFB800;
+  padding: 1px 8px;
+  border-radius: 5px;
+}
+
+.iconBlock .caption {
+  color: #f0f0f0;
+  font-family: Roboto-Regular;
+  font-size: 15px;
+}
+/*# sourceMappingURL=HeaderMenuItem.module.css.map */

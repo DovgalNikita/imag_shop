@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Roboto-regular;
+  src: url("../../../assets/fonts/Roboto-Regular.ttf");
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  height: 30px;
+  color: #f0f0f0;
+  background-color: #412b6d;
+  border: none;
+  border-radius: 10px;
+  font-family: Roboto-regular;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-left: -5%;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button:hover {
+  background-color: #33205a;
+}
+/*# sourceMappingURL=CatalogButton.module.css.map */

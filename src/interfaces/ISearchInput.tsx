@@ -1,0 +1,3 @@
+interface ISearchInput{
+    placeholder:string;
+}

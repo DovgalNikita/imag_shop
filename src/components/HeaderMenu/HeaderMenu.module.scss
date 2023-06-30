@@ -1,0 +1,7 @@
+@import '../../assets/globalStyleSets/globalStyles.module.scss';
+
+.menu{
+    @include flexRowCC;
+    width:auto; 
+    height:100%;   
+}
