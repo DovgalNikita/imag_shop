@@ -19,9 +19,9 @@
 
     .content{
         @include flexRowCC;
-        justify-content: space-evenly;
+        justify-content: space-between;
         height:100%;
-        width:100%;
+        width:90%;
 
         .logo{
             color:$fontColor_lightTheme;

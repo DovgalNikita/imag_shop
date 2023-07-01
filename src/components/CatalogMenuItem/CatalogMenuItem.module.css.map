@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "CatalogMenuItem.module.scss"
+    ],
+    "names": [],
+    "file": "CatalogMenuItem.module.css"
+}

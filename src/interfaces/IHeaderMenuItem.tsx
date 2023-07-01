@@ -4,5 +4,5 @@ interface IHeaderMenuItem{
     path:Icon;
     alt:string;
     caption:string;
-    counter?:string;
+    counter?:number | null;
 }

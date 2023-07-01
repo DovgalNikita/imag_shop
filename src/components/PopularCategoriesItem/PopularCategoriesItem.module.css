@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("../../assets/fonts/Roboto-Regular.ttf");
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  height: 200px;
+  padding: 25px;
+  border-radius: 60px;
+  border-right: 2px solid rgba(255, 255, 255, 0.25);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+  border-left: 2px solid rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.block .image {
+  width: 150px;
+  height: 150px;
+}
+
+.block .caption {
+  color: black;
+  font-family: Roboto-Regular;
+  font-size: 15px;
+  margin-top: 5%;
+}
+/*# sourceMappingURL=PopularCategoriesItem.module.css.map */

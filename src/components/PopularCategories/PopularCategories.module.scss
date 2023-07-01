@@ -1,0 +1,51 @@
+@import '../../assets/globalStyleSets/globalStyles.module.scss';
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('../../assets/fonts/Roboto-Regular.ttf');
+}
+
+.block{
+    @include flexColumnCC;
+    width:100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: $white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    .title{
+        font-family: Roboto-Regular;
+        font-weight: 700;
+        font-size: 25px;
+        letter-spacing: 1px;
+        width:100%;
+        text-align: center;
+    }
+
+    .categoriesGrid{
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        gap: 10%; 
+        width:80%;
+        height:80%;
+        grid-template-areas: "a c"
+                             "d e" ;
+
+        .categoriesItem{
+            text-decoration: none;
+
+            &>:nth-child(1){
+                grid-area: a;
+            }
+            &>:nth-child(2){
+                grid-area: c;
+            }
+            &>:nth-child(3){
+                grid-area: d;
+            }
+            &>:nth-child(4){
+                grid-area: e;
+            }
+        }
+    }
+}
