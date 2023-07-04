@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import styles from './PopularCategories.module.css';
+import styles from './PopularCategories.module.scss';
 import PopularCategoriesItem from '../PopularCategoriesItem/PopularCategoriesItem';
 import Link from 'next/link'
 

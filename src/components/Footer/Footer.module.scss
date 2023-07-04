@@ -1,0 +1,103 @@
+@import '../../assets/globalStyleSets/globalStyles.module.scss';
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('../../assets/fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: DaysOne;
+    src: url('../../assets/fonts/DaysOne-Regular.ttf');
+}
+
+
+.footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:500px;
+    background-color: #333333;
+    margin: 25px 0 0;
+
+    .title{
+        font-family: DaysOne;
+        color: $white;
+        font-size: 35px;
+        width:80%;
+        text-align: center;
+        margin-bottom: 50px;
+
+        span{
+            font-size: 40px;
+            // background-color: #8500f1;
+            border-radius: 30px;
+            padding:10px;
+            color:#bc75f7;
+        }
+    }
+
+    .content{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width:80%;
+        height:220px;
+
+        .map{
+            border-radius: 20px;
+            height:220px;
+            width:50%;
+        }
+
+        .info{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: left;
+            width:fit-content;
+            height:100%;
+            width:22%;
+            color:#facf61;
+            font-family: Roboto-Regular;
+            font-size: 15px;
+            font-weight: 600;
+
+            div{
+
+                &:first-child{
+                    color:$white;
+                    padding:0 0 5% 0;
+                    border-bottom: 1px solid rgba(255,255,255, 0.25);
+                }
+
+                >span{
+                    font-weight: 100;
+                    color:$white;
+
+                    a{
+                        text-decoration: none;
+                        color:inherit;
+                    }
+                }   
+            }
+
+            .input{
+                width:100%;
+                height:40px;
+                border-radius: 10px;
+                border:0;
+                padding: 0 0 0 20px;
+                font-family: Roboto-Regular;
+                font-size: 15px;
+                background-color: $white;
+
+                &:active, &:hover, &:focus {
+                    outline: 0;
+                    outline-offset: 0;
+                }
+
+            }
+        }
+    }
+}

@@ -1,28 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
-html{
-    width:100%;
-    height:100%;
-}
-
-body{
-    width:100%;
-    height:100%;
-}
-
-
-#__next{
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width:100%;
-    height:100%;
-}
-
 .firstLevel{
     display:flex;
     justify-content: space-between;
@@ -44,4 +19,22 @@ body{
 
 .firstLevel > div:last-child {
     margin-left: 1%;
+}
+
+.secondLevel{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 300px;
+    margin-top:25px;
+}
+
+.thirdLevel{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 400px;
+    margin-top:25px;
 }

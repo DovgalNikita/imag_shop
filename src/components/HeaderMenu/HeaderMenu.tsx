@@ -1,5 +1,5 @@
 import HeaderMenuItem from '../HeaderMenuItem/HeaderMenuItem';
-import styles from './HeaderMenu.module.css';
+import styles from './HeaderMenu.module.scss';
 
 const HeaderMenu = () => {
 

@@ -1,4 +1,4 @@
-import styles from './Header.module.css';
+import styles from './Header.module.scss';
 import { FC } from 'react';
 import CatalogButton from '../UI/CatalogButton/CatalogButton';
 import SearchInput from '../UI/SerachInput/SearchInput';

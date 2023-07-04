@@ -1,10 +1,23 @@
 import { FC } from 'react';
-import styles from './CatalogMenu.module.css';
+import styles from './CatalogMenu.module.scss';
+import CatalogMenuItem from '../CatalogMenuItem/CatalogMenuItem';
+import { LaptopSVG } from '@/assets/images/LaptopSVG';
 
 const CatalogMenu: FC = () => {
     return(
         <div className={styles.block}>
-            
+            <CatalogMenuItem caption={'Бытовая техника'}> <LaptopSVG color="white"/> </CatalogMenuItem>
+            <CatalogMenuItem caption={'Красота и здоровье'}> <LaptopSVG color="white"/> </CatalogMenuItem>
+            <CatalogMenuItem caption={'Смартфоны и электроника'}> <LaptopSVG color="white"/> </CatalogMenuItem>
+            <CatalogMenuItem caption={'ТВ, консоли и аудио'}> <LaptopSVG color="white"/> </CatalogMenuItem>
+            <CatalogMenuItem caption={'ПК, ноутбуки, периферия'}> <LaptopSVG color="white"/> </CatalogMenuItem>
+            <CatalogMenuItem caption={'Комплектующие для пк'}> <LaptopSVG color="white"/> </CatalogMenuItem>
+            <CatalogMenuItem caption={'Офис и мебель'}> <LaptopSVG color="white"/> </CatalogMenuItem>
+            <CatalogMenuItem caption={'Сетевое оборудование'}> <LaptopSVG color="white"/> </CatalogMenuItem>
+            <CatalogMenuItem caption={'Отдых и развлечения'}> <LaptopSVG color="white"/> </CatalogMenuItem>
+            <CatalogMenuItem caption={'Инструмент и стройка'}> <LaptopSVG color="white"/> </CatalogMenuItem>
+            <CatalogMenuItem caption={'Садовая техника'}> <LaptopSVG color="white"/> </CatalogMenuItem>
+            <CatalogMenuItem caption={'Дом, декор и посуда'}> <LaptopSVG color="white"/> </CatalogMenuItem>
         </div> 
     )
 }

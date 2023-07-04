@@ -1,4 +1,4 @@
-import styles from './HeaderMenuItem.module.css';
+import styles from './HeaderMenuItem.module.scss';
 import {FC} from 'react';
 import Auth from '../../assets/images/auth.png';
 import shoppingCart from '../../assets/images/shoppingCart.png';
