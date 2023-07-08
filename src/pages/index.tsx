@@ -6,6 +6,7 @@ import PrevViewed from '../components/PrevViewed/PrevViewed';
 import styles from './styles/index.module.scss';
 
 const App = () => {
+
     return(
         <Template>
             

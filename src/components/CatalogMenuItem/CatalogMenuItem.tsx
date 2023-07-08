@@ -1,7 +1,5 @@
 import { FC } from 'react';
 import styles from './CatalogMenuItem.module.scss';
-import Image from 'next/image';
-import { LaptopSVG } from '@/assets/images/LaptopSVG';
 import Link from 'next/link';
 
 

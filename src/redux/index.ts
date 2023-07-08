@@ -1,1 +1,15 @@
+'use client';
 
+import { configureStore } from '@reduxjs/toolkit';
+import carouselSlice from './salesCarousel';
+
+const reducer = {
+    carouselSlice
+}
+
+export const store = configureStore({
+    reducer
+})
+
+export type RootState = ReturnType <typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;
